@@ -1,0 +1,26 @@
+<div class=".row">
+    <div class="conteiner">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+
+             <div class="redes">            
+                <a href="https://www.facebook.com/fer.dinamarca">
+                    <img src="../../../assets/Nuevos/facebook (1).png" id="facebook">
+                </a>
+                <a href="https://www.instagram.com/feerdinamarca/">
+                    <img src="../../../assets/Nuevos/instagram (1).png" id="instagram">
+                </a>
+                <a href="https://github.com/feerdnmc">
+                    <img src="../../../assets/Nuevos/sadasd.png" id="github">
+                </a>
+                <a href="https://twitter.com/feerdinamarca">
+                    <img src="../../../assets/Nuevos/gorjeo.png" id="twitter">
+                </a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+                
+             </div>
+    </div>
+
+</div>
