@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "argentinaprogramabd"
-  }
+    "default": "argentinaprogramabd",
+    "argentinaprogramabd": "argentinaprogramabd"
+  },
+  "targets": {},
+  "etags": {}
 }
